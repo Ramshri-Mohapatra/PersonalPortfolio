@@ -1,0 +1,334 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bannerContainer">
+    </div>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="photos/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Projects">Projects </a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <p>Computer Science Undergrad</p>
+                <h1>Hi, I'm <span>Ramshri</span> </h1>
+                <h2>Leveling up as a CS student, crafting virtual worlds <span>and</span><br>pixelated dreams🎮✨</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------ABOUT-------------------->
+
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about_col_1">
+                    <img src="photos/aboutme.jpg">
+                </div>
+                <div class="about_col_2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="text">Hello, I'm Ramshri Mohapatra, an international student from India in my second year
+                        at
+                        CITY University of London. Technology has been a constant in my 21st-century life,
+                        leading me to discover my passion for computer science. I find joy in the challenges of
+                        coding, problem-solving, and project work. My fascination with game development
+                        grew from creating a game in my first year. I'm driven by a love for creativity and
+                        problem-solving, eager to build a rewarding career in the ever-evolving tech industry.
+                        Join me on this exciting journey!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                        <p class="tab-links" onclick="openTab('interests')">Interests</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>Java, C++, SQL, Python, C#, Bash.</li>
+                            <li><span>Technologies and Tools</span><br>SalesForce, GitHub, Linux, Internet Explorer,
+                                Visual Paradigm, Unity, Microsoft Office, Microsoft Teams, Windows, Postman API.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Aug. 2023 - Sep. 2023 | Bhubaneswar, India</span><br>Summer internship at
+                                GoldenPegasus IT Consulting and Services Pvt Ltd.</li>
+                            <li><span>Jun. 2023 | Remote</span><br>Virtual internship at Lloyds Banking Group.</li>
+                            <li><span>Jun. 2023 | Remote</span><br>Participated in IEUK 2023: Technology. </li>
+                            <li><span>Feb. 2023 - Present | London</span><br>Working as a student ambassador for
+                                my university's marketing team.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>CITY University of London</span><br>BSc(Hons)
+                                Computer Science<br> Expected graduation - 2025</li>
+                            <li><span>Doon International School</span><br>2019-2021</li>
+                            <li><span>SAI International School</span><br>2010-2019</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="interests">
+                        <ul>
+                            <li><span>Books</span><br>I have recently started reading books, my personal recommendation
+                                will be "Kafka on The Shore" by Haruki Murakami.<br></li>
+                            <li><span>Movies</span><br>Dead Poets Society, Ready Player One, Fight Club.</li>
+                            <li><span>Anime</span><br>Attack on Titan, Tokyo Ghoul, Terror in Resonance.</li>
+                            <li><span>Music</span><br>I listen to all types of music.</li>
+                            <li><span>Sports</span><br>I play cricket and basketball and love working out at the Gym.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------Projects------------------------->
+
+    <div id="Projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list" id="pl">
+                <div class="work">
+                    <img src="photos/work-1.png">
+                    <div class="layer">
+                        <h3>Porky The Saviour</h3>
+                        <p>Developed a 2D Boss-Fight Game using Unity physics engine.<br>
+                        </p>
+                        <p2 class="project-links active-link" onclick="openProjectTab('p1')"><img src="photos/dots.png">
+
+                        </p2>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="photos/work-2.png">
+                    <div class="layer">
+                        <h3>Realm-Runner-The-Epic-Tale-of-the-PurpleBoy</h3>
+                        <p>Developed a 2D platformer game using JBox2D physics engine.<br>
+                        </p>
+                        <p2 class="project-links active-link" onclick="openProjectTab('p2')"><img src="photos/dots.png">
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="photos/work-3.png">
+                    <div class="layer">
+                        <h3>Solar System Simulation</h3>
+                        <p>Used Processing language to design a simulation of solar system in my first week of
+                            University as part of a bootcamp.
+                        </p>
+                        <p2 class="project-links active-link" onclick="openProjectTab('p3')"><img src="photos/dots.png">
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="photos/work-4.jpg">
+                    <div class="layer">
+                        <h3>Recipe program</h3>
+                        <p>Wrote a program to take input of orders and give output as ingredients required for the
+                            specific order using C++.
+                        </p>
+                        <p2 class="project-links active-link" onclick="openProjectTab('p4')"><img src="photos/dots.png">
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="photos/work-5.jpg">
+                    <div class="layer">
+                        <h3>Project Frag</h3>
+                        <p>Working on a horror themed First Person Shooter game using Unreal engine.<br>
+                        </p>
+                        <p2 class="project-links active-link" onclick="openProjectTab('p5')"><img src="photos/dots.png">
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="photos/work-6.jpg">
+                    <div class="layer">
+                        <h3>Esports Database Management</h3>
+                        <p>Designed and implemented a relational database management project.
+                        </p>
+                        <p2 class="project-links active-link" onclick="openProjectTab('p6')"><img src="photos/dots.png">
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="photos/work-7.png">
+                    <div class="layer">
+                        <h3>SFX Fridge Software</h3>
+                        <p>Designed Use case diagrams, Analysis diagrams, Sequence diagrams and CRC cards for a case
+                            study about a smart fridge company.<br>
+
+                        </p>
+                        <p2 class="project-links active-link" onclick="openProjectTab('p7')"><img src="photos/dots.png">
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="photos/work-8.png">
+                    <div class="layer">
+                        <h3>IEEE END OF THE LINE COMPETITION</h3>
+                        <p>Participated in a robotics competition with a team of three.<br>
+
+                        </p>
+                        <p2 class="project-links active-link" onclick="openProjectTab('p8')"><img src="photos/dots.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container1">
+        <div class="project-content active-tab" id="p1">
+            <h3>Porky The Saviour</h3>
+            <p>This game is set within the dreams of a kindergarten kid who resides in the outskirts of London. Each
+                day, he gazes out of his window at the London Bridge. His beloved pet pig, named Porky, is a constant
+                companion, and the two share a special bond. One night, the child experiences a dream where aliens
+                attack London, prompting Porky to soar into action save the city. The artistic style
+                chosen for the game is a blend of scribbly and crayony, reminiscent of kindergarten drawings
+                and the scenes that unfold in the child's dreams.<br>
+                <br>
+            <h2>My Contribution and Learnings:</h2>
+            • Developed the Game using Unity.<br>
+            • Lead a team of three to develop the game within a demanding four-day deadline.<br>
+            • Wrote the complete AI code for the boss character.
+            </p>
+            <video width="1920" height="1080" controls>
+                <source src="photos/video-1.mp4" type="video/mp4">
+            </video>
+            <p><br><br></p>
+
+        </div>
+        <div class="project-content" id="p2">
+            <h3>Realm-Runner-The-Epic-Tale-of-the-PurpleBoy</h3>
+            <p>• Developed a 2D platformer game using JBox2D physics engine.<br>
+                • Designed characters and multiple levels, used text files for data storage and retrieval
+                for recording high scores and<br>
+                saving/loading levels.<br>
+                • Used Adobe Photoshop for creating character designs and adding animations to the<br> game and
+                thus adding to the game aesthetics.
+            </p>
+        </div>
+        <div class="project-content" id="p3">
+            <h3>Solar System Simulation</h3>
+            <p>• Used Processing language to design a simulation of solar system in my first week of
+                University as part of a bootcamp.<br>
+                • This intrigued my interest for programming and how simple text inputs can
+                produce beautiful outcomes.<br>
+            </p>
+        </div>
+        <div class="project-content" id="p4">
+            <h3>Recipe program</h3>
+            <p>• Wrote a program to take input of orders and give output as ingredients required for the
+                specific order using C++.<br>
+                • Used various data structures like vectors and maps for reading .txt files containg the
+                orders.
+            </p>
+        </div>
+        <div class="project-content" id="p5">
+            <h3>Project Frag</h3>
+            <p>• Working on a First Person Shooter game using Unreal engine.<br>
+                • Working on the analysis and deployment of the gun system for the game.<br>
+                •Inspire by an hourglass, I have designed a level design structure called Temporal Inversion
+                Pavillion.
+            </p>
+        </div>
+        <div class="project-content" id="p6">
+            <h3>Esports Database Management</h3>
+            <p>• Designed and implemented a relational database management project from scratch, including
+                Entity Relationship <br>Diagram (ERD) creation using Visual Paradigm.<br>
+                • Developed a fully functional database using phpMyAdmin and applied SQL for both Data
+                Definition Language (DDL)<br>
+                and Data Manipulation Language (DML) tasks.
+            </p>
+        </div>
+        <div class="project-content" id="p7">
+            <h3>SFX Fridge Software</h3>
+            <p>• Designed Use case diagrams, Analysis diagrams, Sequence diagrams and <br>CRC cards for a case
+                study about a smart fridge company.<br>
+
+            </p>
+        </div>
+        <div class="project-content" id="p8">
+            <h3>IEEE City Robotics End of Line Competition</h3>
+            <p>• The robot vehicle was programmed using Arduino and followed the race track using IR sensors.<br>
+                •The design of the vehicle was inspired by Going Merry, which <br>is a pirate ship in the famous anime
+                One Piece.<br>
+
+            </p>
+        </div>
+    </div>
+
+
+
+
+
+    <script>
+
+        var tabLinks = document.getElementsByClassName("tab-links");
+        var tabContents = document.getElementsByClassName("tab-contents");
+
+        function openTab(tabName) {
+            for (tablink of tabLinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabContents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabName).classList.add("active-tab");
+
+
+
+        }
+
+        var projectcontents = document.getElementsByClassName("project-content")
+        var isAlternativeGrid;
+        var video = document.querySelector("video");
+
+        document.addEventListener('DOMContentLoaded', function () {
+            for (projectcontent of projectcontents) {
+                projectcontent.classList.remove("active-tab");
+            }
+
+            // Your script code here
+            console.log('Script executed on website start');
+
+            // You can place any code that you want to run once here
+        });
+
+        function openProjectTab(tabName) {
+            isAlternativeGrid = true;
+            var projectList = document.getElementById('pl');
+            projectList.classList.toggle('alternative-grid', isAlternativeGrid == true);
+            isAlternativeGrid = false;
+
+            for (projectcontent of projectcontents) {
+                projectcontent.classList.remove("active-tab");
+            }
+
+            if (!video.paused) {
+                video.pause();
+            }
+
+            //event.currentTarget.classList.add("active-tab")
+            document.getElementById(tabName).classList.add("active-tab");
+
+
+
+        }
+
+    </script>
+</body>
+
+</html>
