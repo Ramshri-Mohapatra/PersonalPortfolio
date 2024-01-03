@@ -175,12 +175,12 @@ nav ul li a:hover::after {
 .tab-contents ul li {
     list-style: none;
     margin: 20px 0;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .tab-contents ul li span {
     color: #8de9bc;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .tab-contents {
@@ -332,6 +332,13 @@ nav ul li a:hover::after {
     bottom: 10px;
 }
 
+.project-content.p8 h3 a img {
+    width: 70px;
+    position: relative;
+    top: 20px;
+    right: 10px;
+}
+
 .project-content h2 {
     color: #00bf63;
     font-size: 40px;
@@ -343,4 +350,28 @@ nav ul li a:hover::after {
     position: relative;
     top: 6px;
     left: 20px;
+}
+
+.project-content p2 img {
+    position: relative;
+    top: 20px;
+    left: 300px;
+    width: 600px;
+    height: 400px;
+}
+
+.project-content p3 img {
+    position: relative;
+    top: 20px;
+    left: 100px;
+    width: 500px;
+    height: 400px;
+}
+
+.project-content p4 img {
+    position: relative;
+    top: 20px;
+    left: 150px;
+    width: 500px;
+    height: 400px;
 }
