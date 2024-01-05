@@ -175,12 +175,12 @@ nav ul li a:hover::after {
 .tab-contents ul li {
     list-style: none;
     margin: 20px 0;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .tab-contents ul li span {
     color: #8de9bc;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .tab-contents {
