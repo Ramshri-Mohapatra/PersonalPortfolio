@@ -489,3 +489,91 @@ form textarea {
 .copyright i {
     color: #00bf63;
 }
+
+/*--------------------css for small screen-------------------*/
+nav .fa-solid {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #header {
+        background-image: url(photos/background-2.png);
+
+    }
+
+    .header-text {
+        margin-top: -20px;
+        font-size: 16px;
+    }
+
+    .header-text p {
+
+        font-size: 15px;
+    }
+
+    .header-text h1 {
+
+        font-size: 20px;
+    }
+
+    .header-text h2 {
+
+        font-size: 20px;
+    }
+
+    .bannerContainer {
+        background-color: #080808;
+        position: absolute;
+        top: -30px;
+        left: -5px;
+        width: 375px;
+        height: 120px;
+    }
+
+    nav .fa-solid {
+        display: block;
+        position: absolute;
+        font-size: 30px;
+        top: 35px;
+        left: 315px;
+        cursor: pointer;
+    }
+
+    .container1 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .container1.alternative {
+        width: 300px;
+        height: 500px;
+    }
+
+    nav ul {
+        background: #00bf63;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+
+    }
+
+    nav ul li {
+        display: block;
+        margin: 25px;
+        top: 1px;
+
+    }
+
+    nav ul .fa-solid {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+}

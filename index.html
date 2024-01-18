@@ -20,14 +20,16 @@
         <div class="container">
             <nav>
                 <img src="photos/logo.png" class="logo">
-                <ul>
+                <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#About">About</a></li>
                     <li><a href="#Projects">Projects </a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="https://drive.google.com/file/d/16igNcwfLHEagfnYz5mF3APqvLSkXM-lC/view?usp=sharing"
                             target="_blank">CV</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
 
             <div class="header-text">
@@ -437,6 +439,16 @@
 
         }
 
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
     </script>
 </body>
 
